@@ -66,14 +66,10 @@
 .botona {
 
     width: 12%;
-
     padding: 1%;
-
     border: none;
     border-radius: 10%;
-
     background: white;
-
     color: #ff445c;
 
     font-weight: bold;
@@ -83,3 +79,88 @@
     cursor: pointer;
 }
 
+/* ? THIS IS MAIN */
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+/* !HERO SECTION */
+
+.hero {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+/* *LEFT SIDE */
+
+.hero-text {
+    width: 45%;
+}
+
+/* todoTITLE */
+
+.hero-text h1 {
+
+    font-size: 400%;
+    color: #2f3d7e;
+
+    margin-bottom: 5%;
+}
+
+/* todoPARAGRAPH */
+
+.hero-text p {
+
+    color: gray;
+    line-height: 180%;
+    margin-bottom: 8%;
+}
+
+/* *BUTTONS */
+
+.buttons {
+
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* todoFIRST BUTTON */
+
+.aboutbtn {
+
+    text-decoration: none;
+    background: #ff445c;
+    color: white;
+    padding: 4% 6%;
+    border-radius: 2rem;
+    font-weight: bold;
+}
+
+/* todoSECOND BUTTON */
+
+.touchbtn {
+
+    text-decoration: none;
+    color: #2f3d7e;
+    font-weight: bold;
+}
+
+/* todoimage */
+
+.hero-image {
+    width: 50%;
+}
+
+.hero-image img {
+    width: 100%;
+}
