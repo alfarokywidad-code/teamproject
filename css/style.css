@@ -164,3 +164,87 @@ main {
 .hero-image img {
     width: 100%;
 }
+/* *section3 and footer */
+.inpt12{
+    background-color: rgb(244, 250, 254);
+    border: white;
+    padding: 20px;
+    margin: 0px;
+    border: 1px solid  white;
+color: white;
+width: 550px;
+}
+.inpt3{
+background-color: rgb(244, 250, 254);
+    border: white;
+    padding: 20px;
+    margin: 0px;
+    border: 1px solid  white;
+color: white;
+width: 1150px;
+}
+footer{
+    background-color: #191970;
+    padding: 20px; 
+    margin: 40px;
+    /* width: 1000px;
+    height: 400px; */
+}
+.lnk1{ text-align: center;
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+}
+.lnk{
+    text-align: center;
+}
+.h1ftr{ 
+    padding: 20px;
+    text-align: center;
+    color: brown;
+    
+
+}
+.p1ftr{
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+.icon{
+    color: white;
+}
+.dvicon{ 
+    font-size: 30px;
+    display: flex;
+justify-content: center;
+padding: 4px;
+gap: 40px;
+margin: 1px;
+}
+
+.btn2{ 
+   
+text-align: center;
+    background-color:red;
+    border: white;
+    padding: 20px;
+    margin: 0px;
+    border-radius: 50px ;
+color: white;
+width: 150px;
+} .btn{
+     display: flex;
+    justify-content: center;
+    
+}
+.t1{
+    color: red;
+}
+
+.t2{
+    color: blueviolet;
+}
+h3{
+    color: white;
+    text-align: center;
+}
