@@ -143,7 +143,6 @@ main {
     color: white;
     padding: 4% 6%;
     border-radius: 2rem;
-    font-weight: bold;
 }
 
 /* todoSECOND BUTTON */
@@ -152,7 +151,7 @@ main {
 
     text-decoration: none;
     color: #2f3d7e;
-    font-weight: bold;
+   
 }
 
 /* todoimage */
@@ -163,4 +162,65 @@ main {
 
 .hero-image img {
     width: 100%;
+}
+
+/* !THIS IS SECOND SECTION */
+
+.section-2 {
+
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+.section-content {
+    display: flex;
+
+    gap: 30px;
+    align-items: center;
+}
+
+.div-left h2 {
+    font-size: 40px;
+    color: #2f3d7e;
+    margin-bottom: 30px;
+}
+
+/* TODOBUTTUN */
+
+.main-btn {
+    text-decoration: none;
+    background-color: #ff445c;
+    color: white;
+    padding: 4% 6%;
+    border-radius: 2rem;
+}
+
+/* TODOCARD */
+.card {
+    background: white;
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .05);
+
+}
+
+.card h3 {
+    margin: 20px 0;
+    font-size: 28px;
+    color: #2f3d7e;
+}
+
+.card p {
+    color: #777;
+    line-height: 1.8;
+}
+
+/* TODOICON */
+.icon {
+    font-size: 40px;
+    color: #2f3d7e;
 }
