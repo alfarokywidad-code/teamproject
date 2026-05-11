@@ -226,15 +226,21 @@ main {
     }
 
 /* *section3 and footer */
-.inpt12{
+.sect3{
+    margin-top: 10vh;
+}
+.inpt12{ 
     background-color: rgb(244, 250, 254);
     border: white;
-    padding: 20px;
+    padding: 0px;
     margin: 0px;
     border: 1px solid  white;
 color: white;
-width: 550px;
+width: 563px;
+height: 10vh;
+
 }
+
 .inpt3{
 background-color: rgb(244, 250, 254);
     border: white;
@@ -243,11 +249,13 @@ background-color: rgb(244, 250, 254);
     border: 1px solid  white;
 color: white;
 width: 1150px;
+margin-bottom: 10px;
+height: 10vw;
 }
 footer{
     background-color: #191970;
-    padding: 20px; 
-    margin: 40px;
+    padding: 2vw; 
+    margin: 2vh;
     /* width: 1000px;
     height: 400px; */
 }
@@ -267,6 +275,7 @@ footer{
 
 }
 .p1ftr{
+
     padding: 10px;
     color: white;
     text-align: center;
@@ -300,10 +309,12 @@ width: 150px;
 }
 .t1{
     color: red;
+    padding: 1vw;
 }
 
 .t2{
-    color: blueviolet;
+    color: #2f3d7e;
+    padding: 1vw;
 }
 h3{
     color: white;
